@@ -1,24 +1,28 @@
 body,html{
-
-
-
-  margin:0 auto;
+   margin:0 auto;
   padding:0;
 }
 
 #main {
-
-
   margin:50px auto;
   width:260px;
 }
 
 #calc {
+   margin-left:52px;
+   width: 60px;
+}
 
-  margin-left:52px;
-  width: 60px;
+span {
+   color:red;
+  margin-left:5px;
 }
 
 input {
-  margin:5px 0; 
+  margin:5px 0;
+}
+
+#width-validate,#height-validate{
+   color:red;
+  margin-left:52px;
 }
